@@ -39,6 +39,8 @@ Successfully installed Jinja2-2.10 MarkupSafe-1.0 Werkzeug-0.12.2 click-6.7 flas
 (server-env) Tengu:~ tom$ 
 ```
 
+Note - you may find that getting GEvent takes a while, in this case I've previously installed it so it used a cached copy, but on, say, a Raspberry Pi, this can take several minutes to download and compile. You may (or may not) need some extra dependencies installed if your system doesn't have the appropriate build tools, if that happens I'm sure Google will be informative.
+
 ## Running
 
 You'll probably want to use this code as an example for your own project, but if you really want to run it as is you can - just do:
